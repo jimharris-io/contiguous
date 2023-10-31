@@ -147,27 +147,3 @@ export default class App {
     }
   }
 }
-
-/*
-X make spritesheet static
-X use request animation frame
-X use tile subclasses
-X velocity should be expressed as pixels per second
-X mouse listener
-sync mouse events and animation frame
-move to target in given time, func
-use image bitmap data
-
-X actually for the rows and columns, you don't need to hittest the sprites
-X hittest the canvas, determine direction of drag, and then row or column to be dragged
-X whilst dragging, the row or column follows the mouse
-
-X are sprites even necessary?
-
-determine quadrant better
-
-foreground sprites moving over a static background
-
-*/
-
-const app = new App("app");
