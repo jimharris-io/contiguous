@@ -147,3 +147,5 @@ export default class App {
     }
   }
 }
+
+const app = new App("app");
