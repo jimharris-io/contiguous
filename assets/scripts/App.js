@@ -125,7 +125,7 @@ export default class App {
     const elapsed = now - this.then;
     if (elapsed > App.fpsInterval) {
       this.then = now - (elapsed % App.fpsInterval);
-      this.context.reset();
+      //this.context.reset();
       //
       const fps = Math.max(1000 / elapsed, 1000 / App.fpsInterval);
       let amount = 0;
