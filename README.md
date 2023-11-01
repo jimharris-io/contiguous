@@ -2,4 +2,6 @@ Game idea using canvas element. Drag rows and columns to create contiguous tiles
 
 TODO: scoring, timer, etc
 
+## CHROME ONLY, FAILS IN SAFARI (incomplete API) ##
+
 https://jimharris-io.github.io/
